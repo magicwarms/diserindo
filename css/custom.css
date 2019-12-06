@@ -275,4 +275,14 @@ footer .block {
   .inner-content h2 {
     color: #999999; }
   .vision-mission > div h3 {
-    color: #fff; } }
+    color: #fff; }
+  .cool-features::before {
+    display: none; }
+  .cool-features > i {
+    display: none; }
+  .cool-features .prdct-mockup {
+    width: 100%;
+    height: 400px; }
+  .cool-features .prdct-mockup-info {
+    width: 100%;
+    padding: 2em; } }

@@ -275,8 +275,18 @@ footer .block {
     margin-bottom: 2em;
     -webkit-overflow-scrolling: touch; }
     .slider-cool > .slider-item {
+      position: relative;
       height: 100%;
       scroll-snap-align: center; }
+      .slider-cool > .slider-item h2 {
+        width: 80%;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        position: absolute;
+        left: 40px;
+        bottom: 40%;
+        text-shadow: 1px 4px 4px rgba(0, 0, 0, 0.3); }
       .slider-cool > .slider-item img {
         width: 100vw;
         height: 100%;
